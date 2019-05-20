@@ -1,0 +1,131 @@
+.teamSpot{
+  width: 300px;
+  height: 100px;
+  padding: 0px;
+  border: 2px solid blue;
+  margin:  5px;
+  position: absolute;
+  z-index: 0;
+  border: 2px solid black;
+  display: inline-block;
+  opacity: 1.0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.playerDiv{
+	width: 57px;
+	height: 69px;
+  margin: 2px;
+  z-index: 1;  
+  opacity: 1.0;
+}
+
+#utahjazzdiv {
+  left: 27%;
+  top: 27%;
+  background: url("../images/team_logos/jazz.png") no-repeat center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#goldenstatewarriorsdiv {
+  left: 0%;
+  top: 25%;
+  background: url("../images/team_logos/warriors.png") no-repeat center;
+    background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#newyorkknicksdiv {
+  left: 80%;
+  top: 32%;
+  background: url("../images/team_logos/knicks.gif") no-repeat center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#bostoncelticsdiv{
+  left: 75%;
+  top: 10%;
+  background: url("../images/team_logos/celtics.png") no-repeat center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#torontoraptorsdiv{
+  left: 60%;
+  top: 15%;
+  background: url("../images/team_logos/raptors.png") no-repeat center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#charlottehornetsdiv{
+  left: 78%;
+  top: 57%;
+  background: url("../images/team_logos/hornets.png") no-repeat center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#backgroundImageDiv {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 0%;
+  bottom: 0%;
+  max-width:100%;
+  max-height:100%;
+  background: url("../images/usa.jpg") no-repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  z-index: -1;
+}
+
+.conferenceDiv{
+  float: left;
+  display: inline-block;
+}
+
+#currentPlayerDiv{
+
+}
+
+#currentTeamDiv{
+
+}
+
+body{
+  height:100%;
+}
+
+/**  STYLE 11 */
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
